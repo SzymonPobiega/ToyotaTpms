@@ -2,6 +2,8 @@
 
 This repository contains source files for building a ESP32-based TPMS system with Chinese BLE TPMS sensors
 
+![Monitor](tpms-screen.jpg)
+
 ## Architecture
 
 The system consists of a ESP32S3 LCD board for displaying information, a ESP32 (classic) for reading the TPMS sensors and the sensors themselves. Two ESP32s are necessary because it appears that (some) ESP32S3 LCD boards have very poor Bluetooth connectivity (presumably because of the antenna is hidden under the screen).
